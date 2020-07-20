@@ -8,12 +8,25 @@ body {
     box-sizing: border-box;
 }
 
+.p-mdt-sys p {
+    margin: 0;
+}
+
 .p-mdt-sys {
     min-width: 600px;
     max-width: 910px;
     margin-left: auto;
     margin-right: auto;
     font-family: 'TT Norms Pro';
+    color: #000000;
+    font-size: 16px;
+}
+
+.p-mdt-sys-section-title {
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: -0.06em;
+    font-weight: 500;
 }
 
 .p-mdt-sys-header {
@@ -34,7 +47,9 @@ body {
 }
 
 .p-mdt-sys-header__logo {
+    display: block;
     width: 100%;
+    margin-bottom: 30px;
 }
 
 .p-mdt-sys-header__title {
@@ -44,4 +59,55 @@ body {
     color: #FFFFFF;
 }
 
-.p-mdt-sys-about {}
+.p-mdt-sys-about {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.p-mdt-sys-about__item {
+    position: relative;
+    padding: 30px 20px 45px 20px;
+    overflow: hidden;
+    background-color: #fff;
+    z-index: 1;
+}
+
+.p-mdt-sys-about__item-inner {
+    display: grid;
+    grid-gap: 15px;
+}
+
+.p-mdt-sys-about__item_1:before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 20px;
+    width: 100%;
+    height: 200%;
+    background-color: #F0F0F0;
+    border-radius: 100%;
+    z-index: -1;
+}
+
+.p-mdt-sys-about__item_2 {
+    display: grid;
+    align-items: flex-end;
+    background: #F0F0F0;
+}
+
+.p-mdt-sys-about__item_2:before {
+    content: '';
+    position: absolute;
+    right: -15%;
+    top: -25%;
+    width: 200px;
+    height: 200px;
+    background-color: #FC2B4A;
+    border-radius: 100%;
+    z-index: -1;
+}
+
+.p-mdt-sys-about__item-description {
+    max-width: 305px;
+}
