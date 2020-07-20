@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.p-mdt-sys,
+.p-mdt-sys * {
+    box-sizing: border-box;
+}
+
+.p-mdt-sys {
+    min-width: 600px;
+    max-width: 910px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'TT Norms Pro';
+}
+
+.p-mdt-sys-header {
+    position: relative;
+    background: #101010;
+    padding-top: 5px;
+    height: 200px;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.p-mdt-sys-header__bg {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    z-index: -1;
+}
+
+.p-mdt-sys-header__logo {
+    width: 100%;
+}
+
+.p-mdt-sys-header__title {
+    text-align: center;
+    font-size: 24px;
+    letter-spacing: -0.04em;
+    color: #FFFFFF;
+}
+
+.p-mdt-sys-about {}
