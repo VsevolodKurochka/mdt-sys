@@ -118,8 +118,14 @@ body {
 }
 
 .p-mdt-sys-about__item-description {
-    max-width: 305px;
+    max-width: 200px;
     margin: 0;
+}
+
+@media (min-width: 768px) {
+    .p-mdt-sys-about__item-description {
+        max-width: 300px;
+    }
 }
 
 .p-mdt-sys-cases {
