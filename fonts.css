@@ -2,8 +2,8 @@
 @font-face {
     font-family: 'TT Norms Pro';
     src: local('TT Norms Pro Bold'), local('TTNormsPro-Bold'),
-    url('./fonts/TTNormsPro-Bold.woff2') format('woff2'),
-    url('./fonts/TTNormsPro-Bold.woff') format('woff');
+    url('https://land.mcs.st/sys/dtech/fonts/TTNormsPro-Bold.woff2') format('woff2'),
+    url('https://land.mcs.st/sys/dtech/fonts/TTNormsPro-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -12,8 +12,8 @@
 @font-face {
     font-family: 'TT Norms Pro';
     src: local('TT Norms Pro ExtraBold'), local('TTNormsPro-ExtraBold'),
-    url('./fonts/TTNormsPro-ExtraBold.woff2') format('woff2'),
-    url('./fonts/TTNormsPro-ExtraBold.woff') format('woff');
+    url('https://land.mcs.st/sys/dtech/fonts/TTNormsPro-ExtraBold.woff2') format('woff2'),
+    url('https://land.mcs.st/sys/dtech/fonts/TTNormsPro-ExtraBold.woff') format('woff');
     font-weight: 800;
     font-style: normal;
     font-display: swap;
@@ -23,8 +23,8 @@
 @font-face {
     font-family: 'TT Norms Pro';
     src: local('TT Norms Pro Medium'), local('TTNormsPro-Medium'),
-    url('./fonts/TTNormsPro-Medium.woff2') format('woff2'),
-    url('./fonts/TTNormsPro-Medium.woff') format('woff');
+    url('https://land.mcs.st/sys/dtech/fonts/TTNormsPro-Medium.woff2') format('woff2'),
+    url('https://land.mcs.st/sys/dtech/fonts/TTNormsPro-Medium.woff') format('woff');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -33,8 +33,8 @@
 @font-face {
     font-family: 'TT Norms Pro';
     src: local('TT Norms Pro Regular'), local('TTNormsPro-Regular'),
-    url('./fonts/TTNormsPro-Regular.woff2') format('woff2'),
-    url('./fonts/TTNormsPro-Regular.woff') format('woff');
+    url('https://land.mcs.st/sys/dtech/fonts/TTNormsPro-Regular.woff2') format('woff2'),
+    url('https://land.mcs.st/sys/dtech/fonts/TTNormsPro-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -43,8 +43,8 @@
 @font-face {
     font-family: 'TT Norms Pro';
     src: local('TT Norms Pro Light'), local('TTNormsPro-Light'),
-    url('./fonts/TTNormsPro-Light.woff2') format('woff2'),
-    url('./fonts/TTNormsPro-Light.woff') format('woff');
+    url('https://land.mcs.st/sys/dtech/fonts/TTNormsPro-Light.woff2') format('woff2'),
+    url('https://land.mcs.st/sys/dtech/fonts/TTNormsPro-Light.woff') format('woff');
     font-weight: 300;
     font-style: normal;
     font-display: swap;
